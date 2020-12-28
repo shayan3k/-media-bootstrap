@@ -1,0 +1,35 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/breakpoints";
+
+.bg-purple {
+  background-color: purple !important;
+  color: white !important;
+}
+
+@include media-breakpoint-up(sm) {
+  .bg-purple {
+    background-color: purple !important;
+    color: black !important;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .bg-purple {
+    background-color: orange !important;
+    color: orangered !important;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .bg-purple {
+    background-color: red !important;
+    color: aqua !important;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .bg-purple {
+    background-color: wheat !important;
+    color: aqua !important;
+  }
+}
